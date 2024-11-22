@@ -1,0 +1,1 @@
+Olá professor tive dificuldades em organizar e sincronizar o repositorio com  o VS code então acredito que não tenha um registro muito preciso do tempo de "trabalho" usado para elaborar os codigos, desde já acredeço a compreensão  
