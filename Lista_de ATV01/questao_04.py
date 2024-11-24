@@ -11,5 +11,4 @@ if mes_inicial == mes_final:
 else:
     diferenca_dias = ((mes_final - mes_inicial) * 30) - (dia_final - dia_inicial)
 
-#Aqui considerando que todos os meses têm 30 dias.
 print (f'Passaram-se {diferenca_dias} dia(s).')
