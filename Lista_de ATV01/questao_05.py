@@ -12,3 +12,29 @@
 
 
 tempo = int(input('Digite o tempo em minutos que voce ficou no estacionamento: '))
+
+valor_pagar = 0
+
+
+
+
+if tempo <= 60 :     
+    valor_pagar += 8
+    print(f'O valor a ser pago é de R${valor_pagar}')
+
+elif tempo <= 120 :
+    valor_pagar += (8*2)
+    print(f'O valor a ser pago é de R${valor_pagar}')
+
+elif tempo <= 180 :
+    valor_pagar += 5
+    print(f'O valor a ser pago é de R${valor_pagar}')
+
+elif tempo <= 240 :
+    valor_pagar += (5*2)
+    print(f'O valor a ser pago é de R${valor_pagar}')
+    
+    
+
+
+
