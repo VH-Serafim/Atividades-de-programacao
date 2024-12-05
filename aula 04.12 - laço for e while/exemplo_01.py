@@ -12,7 +12,12 @@
    4 4 4 4
 '''
 import sys
-n = int(input('DIgite um numero: '))
+num = int(input('DIgite um numero: '))
 
-if n <= 0:
+if num <= 0:
     sys.exit('Digite um valor positivo!')
+
+contador = 1
+
+while contador < num:
+    

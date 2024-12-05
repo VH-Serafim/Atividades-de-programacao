@@ -33,3 +33,19 @@ while contador <= num :
     print(atual, end = ',')
     anterior, atual = atual, anterior + anterior ## aqui é o exemplo de jogar o lapis
     contador += 1
+
+   
+'''--------------------------------------------------------------------------------'''
+
+import sys
+
+n = int(input('Digite um número inteiro positivo: '))
+
+if n <= 0:
+   sys.exit('O número deve ser positivo...')
+
+anterior, atual = 0, 1
+
+for contador in range(1, n + 1):
+    print(atual, end=' ')
+    anterior, atual = atual, atual + anterior
