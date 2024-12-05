@@ -5,10 +5,10 @@ import sys
 num = int(input('Digite um valor:'))
  # num é o parametro final
 if num <= 0:
-    exit('digite um valor maior que 0!')
+    sys.exit('digite um valor maior que 0!')
 
 contador = 1
-
-for contador in range(1, num +1):
-    if num // 1 == 1 and num // num == 0:
-        print()
+while contador < num:
+    for contador in range(1, num +1):
+        if num // 1 == 1 and num // num == 0: 
+            print()     
