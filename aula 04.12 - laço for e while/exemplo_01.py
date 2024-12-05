@@ -19,5 +19,5 @@ if num <= 0:
 
 contador = 1
 
-while contador < num:
+for num in range(num,1) 
     
