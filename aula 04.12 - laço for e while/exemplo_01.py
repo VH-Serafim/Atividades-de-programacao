@@ -17,7 +17,6 @@ num = int(input('DIgite um numero: '))
 if num <= 0:
     sys.exit('Digite um valor positivo!')
 
-contador = 1
-
-for num in range(num,1) 
+for i in range(1, num + 1):
+    print(f'{i} ' * i)
     
