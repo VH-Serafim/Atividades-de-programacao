@@ -12,3 +12,13 @@
    1 2 3 4
    1 2 3 4 5
 '''
+
+import sys
+
+n = int(input("Digite um valor inteiro positivo: "))
+
+if n <= 0:
+   sys.exit('O número deve ser positivo...')
+
+for i in range(n + 1):
+   print(f'{i} ' * i)
