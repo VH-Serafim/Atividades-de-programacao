@@ -5,3 +5,6 @@
 
    Valide se o e-mail informado pelo usuário é válido.
 '''
+email = input('digite seu email')
+if '@' not in email : 
+   print('erro')
